@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form container">
+        <div>
+            <label for="">Enter Your name</label><input type="text">
+        </div>
+        <div>
+            <label for="">Enter Your age</label><input type="number">
+        </div>
+        <div>
+           <div>Your Gender</div>
+           <div>
+            <input type="radio" id="male" value="male" name="gender"> <label for="male">
+                <img src="./images/ (1).jpg" alt="">
+            </label>
+            <input type="radio" id="female" value="female" name="gender"> <label for="female">
+                <img src="./images/ (2).jpg" alt="">
+            </label>
+           </div>
+        </div>
+        <div>
+            <div>select  Your Favourite color</div>
+            <select name="color" id="color">
+                <option value="red">red</option>
+                <option value="green">green</option>
+            </select>
+        </div>
+        <button onclick="cash()">start</button>
+    </div>
+    <hr>
+    <div class="data">
+<button class="get_all" onclick="getAll()">Get All</button>
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+             
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

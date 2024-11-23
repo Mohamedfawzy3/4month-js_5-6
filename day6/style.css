@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.form{
+    margin-top: 50px;
+}
+.form>div{
+    margin-bottom: 14px;
+}
+.form input{
+    padding: 4px 15px
+}
+.form label{
+    display: inline-block;
+    min-width: 120px;
+}
+.data{
+ padding: 40px;
+}
+.data table{
+  
+
+}
+.data button{
+    padding: 6px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(59, 155, 155);
+    color: white;
+    margin-bottom: 20px;
+}
+table,td,th{
+    border: 1px solid rgb(104, 101, 101);
+    border-collapse: collapse;
+}
+td,th{
+    padding: 5px;
+}
+table span{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 85%;
+    margin: auto;
+    
+}
+.container .form{
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 1px 1px  8px 0px #888888;
+}
+.container .form form {
+
+}
+.container .form form div {
+    
+    margin-bottom: 10px;
+}
+.container .form form div label{
+    display: inline-block;
+width: 70px;
+}
+.container .form form div input{
+     background-color: transparent;
+     border: 1px solid #747171;
+     border-radius: 3px;
+     padding: 5px 12px;
+  
+     outline: none;
+
+}
+.container .form form button{
+    padding: 8px 8px ;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.container .form form button:first-child{
+    display: inline-block;
+background-color: rgb(3, 129, 81);
+color: white;
+font-weight: bold;
+margin-right: 7px;
+}
+.container .form form button:last-child{
+    font-weight: bold;
+    color: white;
+    background-color: #dd2626;
+}
+.container .form .errors{
+display: flex;
+flex-wrap: wrap;
+}
+.container .form .errors div{
+    width: 50%;
+    color: #ff1515;
+   display: none;
+}
+.container .traffic{
+    margin-top: 100px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+}
+.container .traffic div{
+height: 80px;
+width: 80px ;
+border-radius: 50%;
+background-color: #d5d5d5;
+overflow: hidden;
+}
+.container .traffic div span{
+    display: inline-block;
+height: 100%;
+width: 100%;
+}
+.container p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}

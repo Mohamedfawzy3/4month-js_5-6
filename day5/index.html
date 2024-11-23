@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <form action="" method="get">
+          <div>
+            <label for="">Name</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="">Email</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="">Password</label>
+            <input type="password" name="password" />
+          </div>
+          <div>
+            <label for="">Gender</label>
+            <input type="radio" name="Gender" id="male" value="male"/> <label for="male">Male</label>
+            <input type="radio" name="Gender" id ="female" value="female"/> <label for="female">Female</label>
+          </div>
+          <div>
+            <label for="">Sport</label>
+            <input type="checkbox" name="tennis" value="tennis" id="tennis" />
+            <label for="tennis">tennis</label>
+            <input type="checkbox" name="running" value="running" id="running" />
+            <label for="running">running</label>
+            <input type="checkbox" name="football" value="football" id="football" />
+            <label for="football">football</label>
+          </div>
+          <div>
+            <label for="">Country</label>
+            <select name="" id="">
+              <option value="select" hidden>---Select---</option>
+              <option value="egypt">egypt</option>
+              <option value="katr">katr</option>
+              <option value="kuiet">kuiet</option>
+            </select>
+          </div>
+          <div class="buttons">
+            <button type="submit" onclick="check_inputs(event)">Save</button> <button onclick="reset_form()">Reset</button>
+          </div>
+          <div class="errors">
+<div class="name-msg">- Name is required</div>
+<div class="email-msg">- email is not valis</div>
+<div class="pass-msg">- password must be 8 charctars or more</div>
+<div class="country-msg">- must select country</div>
+<div class="gender-msg">- must select gender</div>
+<div class="sports-msg">- must select 2 sports at least</div>
+          </div>
+        </form>
+      </div>
+      <div><div class="traffic">
+        <div ><span class="red" state="Stop"></span></div>
+        <div ><span class="yellow" state="Ready"></span></div>
+        <div ><span class="green" state="Go"></span></div>
+      </div>
+      <p> </p>
+      
+    </div>
+    <hr>
+    <div>ASCI CODE</div>
+    <p class="asci"></p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
